@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_USER = 'vaheeth'
+        DOCKER_HUB_USER = 'karthi2629'
         IMAGE_NAME = 'dev'
-        PROD_IMAGE_NAME = "vaheeth/prod"
+        PROD_IMAGE_NAME = "karthi2629/prod"
     }
 
     stages {
@@ -13,7 +13,7 @@ pipeline {
                 branch 'dev'
             }
             steps {
-                git branch: 'dev', url: 'https://github.com/vaheethraj/project.git'
+                git branch: 'dev', url: 'https://github.com/Karthikeyan-Arasappan/Final-project.git'
             }
         }
 
@@ -22,7 +22,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                git branch: 'main', url: 'https://github.com/vaheethraj/project.git'
+                git branch: 'main', url: 'https://github.com/Karthikeyan-Arasappan/Final-project.git'
             }
         }
         

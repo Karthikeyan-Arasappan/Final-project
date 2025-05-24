@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-DOCKER_USERNAME="vaheeth"
+DOCKER_USERNAME="karthi2629"
 REPO_NAME="dev"
 IMAGE_NAME="${DOCKER_USERNAME}/${REPO_NAME}"
 COMMIT_ID=$(git rev-parse --short HEAD)

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-DOCKER_USERNAME="vaheeth" # Your Docker Hub username
+DOCKER_USERNAME="karthi2629" # Your Docker Hub username
 REPO_NAME="react-app"
 TAG="prod"
 CONTAINER_NAME="react-app"
